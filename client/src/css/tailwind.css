@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+input[type=number],input[type=text],textarea{
+   @apply rounded-sm p-1 text-lg font-medium border border-[#ddd] bg-[#eee] text-[#222]
+}
+input[type=number]::placeholder,input[type=text]::placeholder,textarea::placeholder{
+   @apply text-[#999] font-normal
+}
